@@ -1,25 +1,7 @@
  🏋️‍♂️ GymPlanner AI Crew
 
 this is an AI-powered personal fitness assistant built using the [CrewAI](https://docs.crewai.com) framework. It brings together a crew of expert agents to help users define fitness goals, calculate macros, plan diets, schedule workouts, recommend supplements, and optimize lifestyle habits.
-
-
-
- 📋 Project Structure
-
-
-.
-├── config/
-│   ├── agents.yaml          # Definitions of all fitness-related AI agents
-│   └── tasks.yaml           # Task descriptions, expected outputs, and agent-task bindings
-├── output/                  # Output folder where task results are saved
-├── crew.py                  # CrewBase class defining agents, tasks, and the crew
-├── main.py                  # Script to run the crew and execute tasks
-├── .env                     # Environment variables (e.g., API keys)
-├── requirements.txt         # Dependencies
-└── README.md                # Project documentation
-
-______________________________________________________________________________________________________________________
- Agents Defined (config/agents.yaml)
+------------------------------------------------------------------------------------------------------------------------------------------
 Each agent has a specific role in the fitness journey:
 
 Goal Setting Agent – Helps define your fitness goals (bulking, fat loss, etc.)
